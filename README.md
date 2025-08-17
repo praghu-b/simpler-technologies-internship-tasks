@@ -20,16 +20,17 @@ All tasks are implemented in a **single Next.js project** for simplicity and eas
 ```bash
 simpler-technologies-internship-tasks/
 │
-├── app/
+├── src/app/
 │   ├── page.jsx            # Home Page (Task 1 - Navbar + Welcome section)
 │   └── signup/
 │       └── page.jsx        # Task 2 - Sign-Up Page
 │
-├── components/
+├── src/components/
 │   ├── Navbar.jsx          # Task 2 - Responsive Navbar
 │   └── UserCard.jsx        # Task 3 - User Card Component
 │
 ├── public/                 # Public assets (images, icons if added)
+│   └── screenshots         # Screenshots of pages for README.md file
 │
 ├── styles/                 # Tailwind/global styles
 │   └── globals.css
@@ -120,7 +121,14 @@ simpler-technologies-internship-tasks/
 
 ## Screenshots
 
-(Add screenshots here for Home Page, Sign-Up Page, and UserCard preview.)
+### 🏠 Home Page
+![Home Page](/screenshots/home.png)
+
+### 🔑 Sign-Up Page
+![Sign-Up Page](/screenshots/signup.png)
+
+### 👤 User Card Component
+![Tasks](/screenshots/tasks.png)
 
 ---
 
