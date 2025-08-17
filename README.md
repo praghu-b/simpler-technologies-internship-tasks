@@ -121,16 +121,23 @@ simpler-technologies-internship-tasks/
 ## Screenshots
 
 ### Home Page
-![Home Page Desktop](public/screenshots/home.png)
-![Home Page Mobile](public/screenshots/home-responsive.png)
+
+| Desktop | Mobile |
+|---------|--------|
+| ![Home Page Desktop](public/screenshots/home.png) | ![Home Page Mobile](public/screenshots/home-responsive.png) |
 
 ### Sign-Up Page
-![Sign-Up Page Desktop](public/screenshots/signup.png)
-![Sign-Up Page Mobile](public/screenshots/signup-responsive.png)
+
+| Desktop | Mobile |
+|---------|--------|
+| ![Sign-Up Page Desktop](public/screenshots/signup.png) | ![Sign-Up Page Mobile](public/screenshots/signup-responsive.png) |
 
 ### Tasks Page
-![Tasks Desktop](public/screenshots/tasks.png)
-![Tasks Mobile](public/screenshots/tasks-responsive.png)
+
+| Desktop | Mobile |
+|---------|--------|
+| ![Tasks Desktop](public/screenshots/tasks.png) | ![Tasks Mobile](public/screenshots/tasks-responsive.png) |
+
 
 ---
 
