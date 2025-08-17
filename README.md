@@ -95,7 +95,7 @@ simpler-technologies-internship-tasks/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simpler-technologies-internship-tasks.git
+   git clone https://github.com/praghu-b/simpler-technologies-internship-tasks.git
    cd simpler-technologies-internship-tasks
    ```
 
@@ -122,13 +122,13 @@ simpler-technologies-internship-tasks/
 ## Screenshots
 
 ### 🏠 Home Page
-![Home Page](/screenshots/home.png)
+![Home Page](public/screenshots/home.png)
 
 ### 🔑 Sign-Up Page
-![Sign-Up Page](/screenshots/signup.png)
+![Sign-Up Page](public/screenshots/signup.png)
 
 ### 👤 User Card Component
-![Tasks](/screenshots/tasks.png)
+![Tasks](public/screenshots/tasks.png)
 
 ---
 
