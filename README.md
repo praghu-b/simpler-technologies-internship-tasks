@@ -22,6 +22,8 @@ simpler-technologies-internship-tasks/
 │
 ├── src/app/
 │   ├── page.jsx            # Home Page (Task 1 - Navbar + Welcome section)
+│   └── layout.jsx
+│   └── globals.css         # global styles
 │   └── signup/
 │       └── page.jsx        # Task 2 - Sign-Up Page
 │
@@ -31,9 +33,6 @@ simpler-technologies-internship-tasks/
 │
 ├── public/                 # Public assets (images, icons if added)
 │   └── screenshots         # Screenshots of pages for README.md file
-│
-├── styles/                 # Tailwind/global styles
-│   └── globals.css
 │
 ├── package.json
 ├── tailwind.config.js
@@ -121,14 +120,14 @@ simpler-technologies-internship-tasks/
 
 ## Screenshots
 
-### 🏠 Home Page
-![Home Page](public/screenshots/home.png)
+### Home Page
+![Home Page](public/screenshots/home.png)(public/screenshots/home-responsive.png)
 
-### 🔑 Sign-Up Page
-![Sign-Up Page](public/screenshots/signup.png)
+### Sign-Up Page
+![Sign-Up Page](public/screenshots/signup.png)(public/screenshots/signup-responsive.png)
 
-### 👤 User Card Component
-![Tasks](public/screenshots/tasks.png)
+### Tasks Page
+![Tasks](public/screenshots/tasks.png)(public/screenshots/tasks-responsive.png)
 
 ---
 
