@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simpler Technologies Internship Tasks
 
-## Getting Started
+This project contains solutions for internship tasks built using **Next.js (App Router)**, **Tailwind CSS**, and **React**.
+All tasks are implemented in a **single Next.js project** for simplicity and easier demonstration.
 
-First, run the development server:
+---
+
+## Tech Stack
+
+* **Framework:** [Next.js 14+ (App Router)](https://nextjs.org/docs/app)
+* **Language:** JavaScript (ESLint enabled)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Package Manager:** npm
+* **Components:** React functional components
+
+---
+
+## Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+simpler-technologies-internship-tasks/
+│
+├── app/
+│   ├── page.jsx            # Home Page (Task 1 - Navbar + Welcome section)
+│   └── signup/
+│       └── page.jsx        # Task 2 - Sign-Up Page
+│
+├── components/
+│   ├── Navbar.jsx          # Task 2 - Responsive Navbar
+│   └── UserCard.jsx        # Task 3 - User Card Component
+│
+├── public/                 # Public assets (images, icons if added)
+│
+├── styles/                 # Tailwind/global styles
+│   └── globals.css
+│
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tasks Implemented
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Task 1: Home Page**
 
-## Learn More
+* Built a landing page (`/app/page.jsx`).
+* Displays the `Navbar` component at the top.
+* Contains a simple **Welcome section** with project introduction.
 
-To learn more about Next.js, take a look at the following resources:
+### **Task 2: Responsive Navbar**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Created a reusable `Navbar` component (`/components/Navbar.jsx`).
+* Features:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  * Responsive design (works on desktop and mobile).
+  * Includes navigation links to **Home** and **Sign-Up Page**.
+  * Mobile hamburger menu with dropdown.
 
-## Deploy on Vercel
+### **Task 3: Sign-Up Page**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Implemented `/signup/page.jsx`.
+* Features:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  * Input fields: **Full Name, Email, Password**.
+  * Basic form validations:
+
+    * Name required.
+    * Valid email required.
+    * Password must be at least 6 characters.
+  * Added **show/hide password toggle** using an eye icon.
+  * On successful submission:
+
+    * Shows a success alert.
+    * Clears form.
+    * Redirects user to **Home Page (`/`)**.
+
+### **Task 4: User Card Component**
+
+* Created a reusable `UserCard` component (`/components/UserCard.jsx`).
+* Displays:
+
+  * User avatar (image placeholder).
+  * Name & Email.
+  * Basic styling with Tailwind CSS.
+* Can be integrated in future pages for displaying user details.
+
+---
+
+## Setup & Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/simpler-technologies-internship-tasks.git
+   cd simpler-technologies-internship-tasks
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open in browser:
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## Screenshots
+
+(Add screenshots here for Home Page, Sign-Up Page, and UserCard preview.)
+
+---
+
+## Notes
+
+* Unnecessary default Next.js boilerplate files (logos, example APIs, etc.) were removed.
+* All three tasks are implemented inside a **single Next.js project** as per internship instructions.
+* Code is structured to be modular and reusable.
+
+---
+
+## Author
+
+**Prakash B** – Final Year B.E. CSE Student
+
+* Full-Stack Developer (Next.js, Express.js, Django, FastAPI, MongoDB)
+* Interested in **AI, Agentic AI, and Web Development**
