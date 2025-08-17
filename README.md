@@ -1,7 +1,7 @@
 # Simpler Technologies Internship Tasks
 
 This project contains solutions for internship tasks built using **Next.js (App Router)**, **Tailwind CSS**, and **React**.
-All tasks are implemented in a **single Next.js project** for simplicity and easier demonstration.
+Since there were no strict project structure mentioned in assignments, all tasks are implemented in a **single Next.js project** for simplicity and easier demonstration.
 
 ---
 
